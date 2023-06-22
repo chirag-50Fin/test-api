@@ -61,42 +61,36 @@
             "id": "1",
             "type": "text",
             "label": "Name",
-            "maxLength": 50,
-            "useref": "name"
+            "maxLength": 50
         },
         {
             "id": "2",
             "type": "number",
             "label": "Age",
-            "maxValue": 100,
-            "useref": "age"
+            "maxValue": 100
         },
         {
             "id": "3",
             "type": "currency",
             "label": "Salary",
-            "format": "USD",
-            "useref": "salary"
+            "format": "INR"
         },
         {
             "id": "4",
             "type": "file",
             "label": "Resume",
-            "accept": ".pdf,.docx",
-            "useref": "resume"
+            "accept": ".pdf,.docx"
         },
         {
             "id": "50",
             "type": "select",
             "label": "Department",
-            "optionsApi": "https://my-json-server.typicode.com/chirag-50Fin/test-api/departments",
-            "useref": "department"
+            "optionsApi": "https://my-json-server.typicode.com/chirag-50Fin/test-api/departments"
         },
         {
             "id": "5",
             "type": "select",
-            "label": "Role",
-            "useref": "role"
+            "label": "Role"
         }
     ]
 }
