@@ -1,0 +1,59 @@
+{
+    "departments": [
+        {
+            "departmentName": "Engineering",
+            "roles": [
+                {
+                    "value": "frontend",
+                    "label": "Frontend Developer"
+                },
+                {
+                    "value": "backend",
+                    "label": "Backend Developer"
+                },
+                {
+                    "value": "fullstack",
+                    "label": "Full Stack Developer"
+                },
+                {
+                    "value": "devops",
+                    "label": "DevOps Engineer"
+                }
+            ]
+        },
+        {
+            "departmentName": "Design",
+            "roles": [
+                {
+                    "value": "ui",
+                    "label": "UI Designer"
+                },
+                {
+                    "value": "ux",
+                    "label": "UX Designer"
+                },
+                {
+                    "value": "graphic",
+                    "label": "Graphic Designer"
+                }
+            ]
+        },
+        {
+            "departmentName": "Marketing",
+            "roles": [
+                {
+                    "value": "seo",
+                    "label": "SEO Specialist"
+                },
+                {
+                    "value": "content",
+                    "label": "Content Marketer"
+                },
+                {
+                    "value": "social",
+                    "label": "Social Media Manager"
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "fields": [
+    "form_fields": [
         {
             "id": "1",
             "type": "text",
@@ -29,18 +29,17 @@
             "useref": "resume"
         },
         {
-            "id": "5",
-            "type": "select",
-            "label": "Position",
-            "optionsApi": "https://example.com/api/positions",
-            "useref": "position"
-        },
-        {
             "id": "50",
             "type": "select",
             "label": "Department",
-            "optionsApi": "https://example.com/api/departments",
+            "optionsApi": "https://my-json-server.typicode.com/chirag-50Fin/test-api/department",
             "useref": "department"
+        },
+        {
+            "id": "5",
+            "type": "select",
+            "label": "Role",
+            "useref": "role"
         }
     ]
 }
