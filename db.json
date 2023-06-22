@@ -89,7 +89,7 @@
             "id": "50",
             "type": "select",
             "label": "Department",
-            "optionsApi": "https://my-json-server.typicode.com/chirag-50Fin/test-api/department",
+            "optionsApi": "https://my-json-server.typicode.com/chirag-50Fin/test-api/departments",
             "useref": "department"
         },
         {
