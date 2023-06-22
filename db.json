@@ -1,0 +1,46 @@
+{
+    "fields": [
+        {
+            "id": "1",
+            "type": "text",
+            "label": "Name",
+            "maxLength": 50,
+            "useref": "name"
+        },
+        {
+            "id": "2",
+            "type": "number",
+            "label": "Age",
+            "maxValue": 100,
+            "useref": "age"
+        },
+        {
+            "id": "3",
+            "type": "currency",
+            "label": "Salary",
+            "format": "USD",
+            "useref": "salary"
+        },
+        {
+            "id": "4",
+            "type": "file",
+            "label": "Resume",
+            "accept": ".pdf,.docx",
+            "useref": "resume"
+        },
+        {
+            "id": "5",
+            "type": "select",
+            "label": "Position",
+            "optionsApi": "https://example.com/api/positions",
+            "useref": "position"
+        },
+        {
+            "id": "50",
+            "type": "select",
+            "label": "Department",
+            "optionsApi": "https://example.com/api/departments",
+            "useref": "department"
+        }
+    ]
+}
